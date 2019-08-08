@@ -4,9 +4,6 @@ body {
 
 #main,
 h1 {
-  /* display: -webkit-flex; */
-  /* display: flexbox; */
-
   display: flex;
   -webkit-align-items: center;
   -ms-flex-align: center;
