@@ -2,7 +2,6 @@ window.onload=function(){
   (function(){
     var info = document.getElementsByClassName('info')[0];
     var music = document.getElementsByTagName('audio')[0];
-    console.log(music, 'music')
     var player = document.getElementById('player');
 
     var actions = {
@@ -19,7 +18,9 @@ window.onload=function(){
     }
       },
       'voldown': function(){
-        music.volume -= 0.1;
+        if(music.volume !== 1.3877787807814457e-16){
+            music.volume -= 0.1;
+        }
       }
     };
     player.addEventListener('click', function(e){
