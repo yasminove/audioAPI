@@ -11,6 +11,31 @@ h1 {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  /* padding-left: 80px; */
+  padding-top: 10px;
+  margin-left: -21px;
+  color:#fff;
+}
+
+body {
+  background-image: url('listen.jpg');
+  background-size: cover;
+}
+
+#main-area{
+  /* background: #9e9e9e;
+  width: 667px;
+    height: 600px;
+    background-color: #9e9e9e;
+    box-shadow: 1px 1px;
+    margin-left: 310px; */
+}
+
+#content {
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-left: 112px;
+  left: -55px;
 }
 
 h1{
@@ -29,6 +54,8 @@ h1{
   bottom: -51px;
   left: -203px;
   top: 61px;
+  width: 561px;
+  margin-right: -176px;
 }
 
 .info {
